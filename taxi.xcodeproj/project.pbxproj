@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F6C1938244251A900424F67 /* Adam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C1937244251A900424F67 /* Adam.swift */; };
+		3F6C193A244251B200424F67 /* Saddam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C1939244251B200424F67 /* Saddam.swift */; };
+		3F6C193C244251BD00424F67 /* Wilfried.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C193B244251BD00424F67 /* Wilfried.swift */; };
 		3FD6304E243BC538002FDE66 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD6304D243BC538002FDE66 /* main.swift */; };
+		3FD63055243BC7EE002FDE66 /* Taxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD63054243BC7EE002FDE66 /* Taxi.swift */; };
+		3FD63057243BC955002FDE66 /* Chauffeur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD63056243BC955002FDE66 /* Chauffeur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F6C1937244251A900424F67 /* Adam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adam.swift; sourceTree = "<group>"; };
+		3F6C1939244251B200424F67 /* Saddam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saddam.swift; sourceTree = "<group>"; };
+		3F6C193B244251BD00424F67 /* Wilfried.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wilfried.swift; sourceTree = "<group>"; };
 		3FD6304A243BC538002FDE66 /* taxi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = taxi; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD6304D243BC538002FDE66 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3FD63054243BC7EE002FDE66 /* Taxi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taxi.swift; sourceTree = "<group>"; };
+		3FD63056243BC955002FDE66 /* Chauffeur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chauffeur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				3FD6304D243BC538002FDE66 /* main.swift */,
+				3FD63054243BC7EE002FDE66 /* Taxi.swift */,
+				3FD63056243BC955002FDE66 /* Chauffeur.swift */,
+				3F6C1937244251A900424F67 /* Adam.swift */,
+				3F6C1939244251B200424F67 /* Saddam.swift */,
+				3F6C193B244251BD00424F67 /* Wilfried.swift */,
 			);
 			path = taxi;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6C193A244251B200424F67 /* Saddam.swift in Sources */,
+				3F6C1938244251A900424F67 /* Adam.swift in Sources */,
+				3FD63057243BC955002FDE66 /* Chauffeur.swift in Sources */,
 				3FD6304E243BC538002FDE66 /* main.swift in Sources */,
+				3FD63055243BC7EE002FDE66 /* Taxi.swift in Sources */,
+				3F6C193C244251BD00424F67 /* Wilfried.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

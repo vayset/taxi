@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+
+let startLogiciel = Taxi(positionDuPassager: ["gauche"])
+
+startLogiciel.commanderUnTaxi()
 
